@@ -133,12 +133,18 @@ Slightly inspired by the multimedia Space Shuttle Challenger piece in PM (http:/
 		*  http://www.brainboosteducation.ca/
 
 		* Comments? Questions? 
-			* April & Kurtis - as well as hearing scientists raves/rants, are you interested to hear about how eLife is trying to address these problems (i.e. from the industry end)? Perhaps as a response? Note eLife is a community initiative, including a journal - we are by scientists for scientists, so this isn't advertising
-				* A: anybody that's involved in science incl. publishers. Involve
-			* Made a PR updating the first episode's date: https://github.com/themethodpodcast/themethodpodcast.github.io/pull/1
-			* Can you tell us more about "peer reviewed podcasting"? Seems like a meaty topic. Have there been any big challenges?
+			* April & Kurtis - as well as hearing scientists raves/rants, are you interested to hear about how eLife is trying to address these problems (i.e. from the industry end)? Perhaps as a response? Note eLife is a community initiative, including a journal - we are by scientists for scientists, so this isn't advertising. Great! Can you hit me up? n.penfold@elifesciences.org? Or I can hit you up?
+				* A: anybody that's involved in science incl. publishers. Involved in research outside of academia
+				* A: Feel free to contact us at contact.the.method@gmail.com! We would love to chat. :)
+				* Great, thanks! And good luck :D
+
+			* Made a PR updating the first episode's date: https://github.com/themethodpodcast/themethodpodcast.github.io/pull/1 Thanks!
+			* Can you tell us more about "peer reviewed podcasting"? Seems like a meaty topic. Have there been any big challenges? (also, love the phrasing :) )
+				* K: we worry about bias in communication, and we talk about the sci process needing review, such a impt step. testing that out for science communication.
+				* A: started off as an idea that would be a lot of fun, but also 
 			* Who are you targeting with your new version of the Blog and Youtube channel? SWEET!!
-			*  @kurtis: you might know my friend Sarah 
+				* A: Teens & 20s interested in science, but never liked it in an academic environment
+			*  @kurtis: you might know my friend Sarah at Brainboost (she's the one that pointed me towards Moz!) Ha! It is a small world! I do :) - vancouver is a small place ;) Indeed!
 			*  
 			*  
 
@@ -147,12 +153,14 @@ Slightly inspired by the multimedia Space Shuttle Challenger piece in PM (http:/
 				* Method Podcast - in the making! Coming out this coming summer.
 				* Epidemiologist, creating radio for science for several years
 				* met Kurtis @ opencon, want to make a podcast, not about scientific advances, but science as a system
-			* Rant & Rave about innivations on how science is done
+			* Rant & Rave about innovations on how science is done
 				* world's only peer reviewed podcast
 				* collect rants & raves from scientists. Transcribed by one of them, brought into interview with someone else -- don't know who wrote the rant/rave, they comment on it. Result: conversation including some peer review abt someone's rant or rave on science
 			* First seassons - peer review process, diversity, open data. Being put together soon
-			* If you have a rant or a rave about anything you encounter in your life as a scientist, they would like to hear from you
+			* If you have a rant or a rave about anything you encounter in your life as a scientist, they would like to hear from you 
+				* contact.the.method@gmail.com
 				* Oh, man, this will be a long affair. +1
+				* Feelings
 			* Kurtis: super excited for 'The Method'
 				*  wearing a bunch of science communication hats. Private school science teacher in Vancouver, also works at Science World. Also communicates science in his space time - youtube&blog - the Scope of Science
 				* Started blog on the process & how we communicate science. Did some of his own science communication, entered some contests talking about his research - super well received. Did 'Science Slam' -- make fun presentation of your research and spread to a general audience (like poetry slam)
@@ -163,29 +171,56 @@ Slightly inspired by the multimedia Space Shuttle Challenger piece in PM (http:/
 					* Ppl want you to it, and ppl want to watch it.
 					* Easier than you think! Ppl will support you
 					* Just need a webcam + software, talk to the camera like it's someone you know. Like your 5 yo niece / nephew
+					* Here is a quick-tips video I made for a conference by a communications company a while ago (public now!) https://www.youtube.com/watch?v=1L3iGIgVDMI Thanks!!
+					* The best MOOC I've taken was Stanfords Writing in the Sciences, great for all science communicators: https://www.coursera.org/course/sciwrite
 			* 
 
 	* Science Journalism + Pop Media
 	Emily Elert / MinuteEarth / @eelert
 		*  https://twitter.com/MinuteEarth
-		*  https://www.youtube.com/user/minuteearth
-		*  http://journalism.nyu.edu/graduate/programs/science-health-and-environmental-reporting/
+		*  https://www.youtube.com/user/minuteearth < miniseries 
+		*  http://journalism.nyu.edu/graduate/programs/science-health-and-environmental-reporting/ < science journalism
 		* Comments? Questions? 
-			*   
+			* Hey, I studied Science Journalism too! :D People are still surprised that it exists as a field. A fellow science journalist! 
+			* What story surprised you most? (Either in how it was received, content, fun twists)
+				* A: wildfire management video -- backfired! wildfires are worse. Surprising and cool.
+			* How tricky is coordinating an international team! How do you manage it?
+				* A: quite tricky! Use slack as productivity/chat tool. All operating around the clock, but they can interact in way that feels closer to being in the same place. Being flexible with their schedule.
+					* 7 people working on Minute Earth, though many are part time (Emily + an illustrator are full-time). 
+					* Work on scripts for a long time - sometimes 5-9 drafts. Work to make the scripts as information dense as possible. Visuals help to build in additional information. 
+			* Do you have a base website apart form Youtube channel talking about yourselves, project etc? ie a reference point
+				* 
+			*  Do you use any particular software to make the vids?
+				* Yes – we use all the Adobe CC software for the actual video production and audio editing. Our illustrators draw on tablets and screencapture their drawing process; we then cut that video to match the narration. Great, thanks!
+
+		* Notes:
+			*  Minute Earth started March 2013, almost 3 years! //starts making a cake, to make up for that flub. :)🎂
+			* Emily - trained as a science journalist. Science journalism is a real thing you can go to school for!
+				*  Classical journalism training + science specific stuff
+			* Science journalism - not a lot of news in science -- based on the journal publishing cycle. Press releases. Articles sometimes written totally off the press release. Emily - gravited away from that.
+			* Minute Earth - created by Henry Reich (TY!) from minute physics -- got really popular on youtube. Draws pictures and talks quickly about physics - 2-3min explainers. Minute earth was bringing the same treatment to Earth science. Mix of more agenda driven stuff, science policy videos. 
+				* Henry Reich is behind https://www.youtube.com/user/minutephysics
+			*  Small team, mostly scientists, Emily is the only science journalist. 7 ppl. 2 illustrators. International -- India, venezuela, cambodia, mtg times are challenging. 
 			*  
 
 	* Fellow Updates:
 		* Christie Bahlai / Michigan State University / @cbahlai
 			* Latest Blog:  https://practicaldatamanagement.wordpress.com/2016/01/22/a-fundamental-difference-of-opinion/
 			* OSRR (Open Science and Reproducible Research) course is underway! https://osrrcourse.wordpress.com/ and materials in repo: https://github.com/cbahlai/OSRR_course
+				* Walk through the whole open science process and walk the students through it. 6 grad students + 2 post docs participating in the prototype.
 			* Will be chatting with students about grey data libaration today, will start working with our class data in R on Tuesday
-			* 
+			* Insect Ecologist @ Michigan State University
 			*  Comments? Questions?
+				*  Is the course open to all grad students worldwide (i.e. with support beyond the materials)? We are looking to pool links for resources such as these, to help ECRs - hmm.. not sure how prompt I can be, but will email :) (cold resources are still helpful!)
+				* From Igor: What is grey data
+					* A: unpublished data produced incidentally as a part of research
 				*  
 				*  
-				*  
+				* 
+
 		* Jason Bobe / Icahn Institute for Genomics and Multiscale Biology at Mount Sinai / @jasonbobe
 			*  Latest Blog: http://blog.jasonbobe.net/participation-paradox/
+			* Participation in personal genomics efforts
 
 			*  Comments? Questions?
 				*  
@@ -198,7 +233,7 @@ Slightly inspired by the multimedia Space Shuttle Challenger piece in PM (http:/
 				* Tentative link is here - feel free to play with it and send feedback by posting an issue on Github: http://bit.ly/1PFjAZM 
 				* Next steps: 
 					* Fix all the bugs! 
-					* Make it simple to make "scroll-splanations" 
+					* Make it simple to make "scroll-splanations" (scroll-based explanations)
 					* Viz Sprint #2 - a data viewer for bioclimate zones in British Columbia
 			*  Comments? Questions?
 				*  
@@ -209,16 +244,25 @@ Slightly inspired by the multimedia Space Shuttle Challenger piece in PM (http:/
 				* And another blog coming up later today as I've now finished the first sprint
 				* Slidewinder is now a working prototype - a command-line tool and (more interesting) a web app for making and sharing slides and presentations
 				* The webapp is in a live preview at http://app.slidewinder.io/
+				* And I made a small command-line tool to generate slides from figures in the open-access literature: https://github.com/slidewinder/open_access_figures
 				* But note that it's an alpha - there will be bugs :). Feedback, bug reports and other discussion very welcome - please post issues https://github.com/slidewinder/app/issues
 				* Or you can come chat to us at https://gitter.im/slidewinder/slidewinder
 				* Next steps:
 					* Improve the contributor documentation (http://slidewinder.io/docs)
 					* Fix bugs
-					* Put in place a roadmap for next features
+					* Put in place a roadmap for next features, including:
+						* share slides/decks, and use or remix other people's slides/decks
+						* build in the 'slides from figures' feature so you can search for a paper/doi/keyword and generate slides from the results
 				* My next sprint will focus on making better tools for teaching comptutational skills, building a more feature-rich platform from my command-line bootcamp: https://github.com/Blahah/command_line_bootcamp
+				* PhD student at Cambridge studying photosynthesis
+				* Fellowship: focusing on little bits of science that are irritating, come up with small technical solutions
 			*  Comments? Questions?
-				*  
-				*  
+				*  Do you plan to have a visual composer for slidewinder? 
+					* Currently in MarkDown. Its planned to have a WYSIWYG Editor
+				*  Is there a way of tracking reuse of OA figures? i.e. as a measure of success of OA?
+					* yes! both slides and decks will have social features like favourites, remixes and tracking of metrics
+				* Is remixing by CC-BY? Thanks :)
+					* A: CC-BY-4.0 by default
 
 =================
  OTHER QUESTIONS 
@@ -259,7 +303,7 @@ UPCOMING EVENTS
 =================
 
 	*  FORCE 2016 conference Apr 17-19 in Portland, Oregon, US: https://www.force11.org/meetings/force2016
-	*  
+	*  CSVConf is coming up soon - still a few days left to submit a talk: http://csvconf.com/ (deadline is feb 14)
 	*   
 	*  
 
