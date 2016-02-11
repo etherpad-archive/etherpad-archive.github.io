@@ -137,7 +137,7 @@ Slightly inspired by the multimedia Space Shuttle Challenger piece in PM (http:/
 				* A: anybody that's involved in science incl. publishers. Involved in research outside of academia
 				* A: Feel free to contact us at contact.the.method@gmail.com! We would love to chat. :)
 				* Great, thanks! And good luck :D
-
+```
 			* Made a PR updating the first episode's date: https://github.com/themethodpodcast/themethodpodcast.github.io/pull/1 Thanks!
 			* Can you tell us more about "peer reviewed podcasting"? Seems like a meaty topic. Have there been any big challenges? (also, love the phrasing :) )
 				* K: we worry about bias in communication, and we talk about the sci process needing review, such a impt step. testing that out for science communication.
@@ -258,7 +258,8 @@ Slightly inspired by the multimedia Space Shuttle Challenger piece in PM (http:/
 				* Fellowship: focusing on little bits of science that are irritating, come up with small technical solutions
 			*  Comments? Questions?
 				*  Do you plan to have a visual composer for slidewinder? 
-					* Currently in MarkDown. Its planned to have a WYSIWYG Editor
+					* Currently in MarkDown. Its planned to have a WYSIWYG Editorface
+					* 
 				*  Is there a way of tracking reuse of OA figures? i.e. as a measure of success of OA?
 					* yes! both slides and decks will have social features like favourites, remixes and tracking of metrics
 				* Is remixing by CC-BY? Thanks :)
