@@ -1,277 +1,43 @@
-<!--
-             _.-~-.
-           7''  Q..\
-        _7         (_
-      _7  _/    _q.  /
-    _7 . ___  /VVvv-'_                                            .
-   7/ / /~- \_\\      '-._     .-'                      /       //
-  ./ ( /-~-/||'=.__  '::. '-~'' {             ___   /  //     ./{
- V   V-~-~| ||   __''_   ':::.   ''~-~.___.-'' _/  // / {_   /  {  /
-  VV/-~-~-|/ \ .'__'. '.    '::                     _ _ _        ''.
-  / /~~~~||VVV/ /  \ )  \        _ __ ___   ___ ___(_) | | __ _   .::'
- / (~-~-~\\.-' /    \'   \::::. | '_ ` _ \ / _ \_  / | | |/ _` | :::'
-/..\    /..\__/      '     '::: | | | | | | (_) / /| | | | (_| | ::'
-vVVv    vVVv                 ': |_| |_| |_|\___/___|_|_|_|\__,_| ''
+<!DOCTYPE html><html lang="en"  data-adblockkey=MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANnylWw2vLY4hUn9w06zQKbhKBfvjFUCsdFlb6TdQhxb9RXWXuI4t31c+o8fYOv/s8q1LGPga3DE1L/tHU4LENMCAwEAAQ==_bp9Glh0rLptFmcPEuysV9o0t/bSN7OJ6GRmT8Etved7tFpECKWn+FbdcdIz104zDERy+yos+RrDFxqBWRnYDJQ==><head><meta charset="utf-8"><title>etherpad-mozilla.org&nbsp;-&nbspThis website is for sale!&nbsp;-&nbspetherpad mozilla Resources and Information.</title><meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"><meta name="description" content="This website is for sale! etherpad-mozilla.org is your first and best source for all of the information you’re looking for. From general topics to more of what you would expect to find here, etherpad-mozilla.org has it all. We hope you find what you are searching for!"><link
+            href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIFdpbmRvd3MiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MzRFNEQ3NkJEMjRGMTFFMTk4RjA4NDhFNTEwRTcyMkIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MzRFNEQ3NkNEMjRGMTFFMTk4RjA4NDhFNTEwRTcyMkIiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozNEU0RDc2OUQyNEYxMUUxOThGMDg0OEU1MTBFNzIyQiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozNEU0RDc2QUQyNEYxMUUxOThGMDg0OEU1MTBFNzIyQiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PukMAkAAAAEsUExURcbf8uXx+vb6/eXx+Q5FtN/t+Ofz+rbX7uTr9+Tq9y5fvlh+y7rY7+n0+lJ6yS1evt7l9Sxdvr/b8L3a8BRLtpev31mAy+v0+k13yLLD59Hm9PT5/c3Z8LXG6Oby+pXG5aG54vX3/Git2LvZ79bg8vr8/vP4/Mjh8+Pw+Ofy+sPd8cfj9G2P0cDc783k9Ex2x6DK5xlOuCBUumWJztDm9DZkwLTF6Ojt92yP0s7a8OPq9m6Y1d3l9cHP7OLp9kNvxNPo9Wes2DNhwJSv3uDt+Ovw+cDP6yNVuurv+Nbf8pjI5aDL56G44rTL6h1RuWaJz9bp9tDo9u31+oWi2TZlwMfg8E16yd7t99Hc8Vl+ysri897l9JCq3FB5yPL1++/2/MLQ7HGb1j9sw////2AvJ1QAAADsSURBVHjaRM9ZMwNREAXgnpvLZKOENsQSJrTlIjHEEhQZS2JJxljHmoT+//9B37w4j19Xna4DzKzGDbHKLN+MdZlB4GNJ8fV9AbH1W7ew7g6zn9ORt/uM8wJkBOs7eHai/P05Bnp0S8ynBQz2qk9v0jEbTyjpKWZRI0Z9hqlV29u9ynQmR6PAY7g0NYH+efvzYDHAQ4bExBY0Bi3E7BHDkGkI+MXN7+ncV1pKU1AhIiYbudgvx957c+t2YW2k1ugJUKmqdXs7DGdiN5+yW+hV4K4cVhI37wzGdX4u0skL9FYcRw2ANh74P38CDABMCjqJfzUcfQAAAABJRU5ErkJggg=="
+            type="image/png" rel="shortcut icon"><script src="//img.sedoparking.com/js/jquery-1.11.3.custom.min.js"></script><style>
+        /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:0.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace, monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace, monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-0.25em}sup{top:-0.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,html [type="button"],[type="reset"],[type="submit"]{-webkit-appearance:button}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type="button"]:-moz-focusring,[type="reset"]:-moz-focusring,[type="submit"]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:0.35em 0.75em 0.625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type="checkbox"],[type="radio"]{box-sizing:border-box;padding:0}[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button{height:auto}[type="search"]{-webkit-appearance:textfield;outline-offset:-2px}[type="search"]::-webkit-search-cancel-button,[type="search"]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}.container-header{margin:0 auto 0 auto;text-align:center}.container-header__content{color:#717171}.container-content{margin:25px auto 20px auto;text-align:center;background:url("//img.sedoparking.com/templates/bg/arrows-1-colors-3.png") #FBFBFB no-repeat center top;background-size:100%}.container-content__container-relatedlinks,.container-content__container-ads,.container-content__webarchive{width:30%;display:inline-block}.container-content__container-relatedlinks{margin-top:9%}.container-content__container-ads{margin-top:8%}.container-content__container-ads--twot{margin-top:7%}.container-content__webarchive{margin-top:8%}.container-content__header{color:#717171;font-size:15px;margin:0}.container-content--lp{width:90%;min-height:820px}.container-content--rp{width:90%;min-height:820px}.container-content--wa{width:90%}.container-content--twot{width:90%;min-height:820px}.two-tier-ads-list{padding:0 0 1.6em 0}.two-tier-ads-list__list-element{list-style:none;padding:10px 0 5px 0;display:inline-block}.two-tier-ads-list__list-element-image{content:url("//img.sedoparking.com/templates/images/bullet_justads.gif");float:left;padding-top:32px}.two-tier-ads-list__list-element-content{display:inline-block}.two-tier-ads-list__list-element-header-link{font-size:37px;font-weight:bold;text-decoration:underline;color:#0a48ff}.two-tier-ads-list__list-element-text{padding:3px 0 6px 0;margin:.11em 0;line-height:18px;color:#000}.two-tier-ads-list__list-element-link{font-size:1.0em;text-decoration:underline;color:#0a48ff}.two-tier-ads-list__list-element-link:link,.two-tier-ads-list__list-element-link:visited{text-decoration:underline}.two-tier-ads-list__list-element-link:hover,.two-tier-ads-list__list-element-link:active,.two-tier-ads-list__list-element-link:focus{text-decoration:none}.webarchive-block{text-align:center}.webarchive-block__header-link{color:#0a48ff;font-size:20px}.webarchive-block__list{padding:0}.webarchive-block__list-element{word-wrap:break-word;list-style:none}.webarchive-block__list-element-link{line-height:30px;font-size:20px;color:rgba(10,72,255,0.7)}.webarchive-block__list-element-link:link,.webarchive-block__list-element-link:visited{text-decoration:none}.webarchive-block__list-element-link:hover,.webarchive-block__list-element-link:active,.webarchive-block__list-element-link:focus{text-decoration:underline}.container-buybox{text-align:center}.container-buybox__content-buybox{display:inline-block;text-align:left}.container-buybox__content-heading{font-size:15px}.container-buybox__content-text{font-size:12px}.container-buybox__content-link{color:#919DA6}.container-buybox__content-link--no-decoration{text-decoration:none}.container-searchbox{margin-bottom:50px;text-align:center}.container-searchbox__content{display:inline-block;font-family:arial, sans-serif;font-size:12px}.container-searchbox__searchtext-label{display:none}.container-searchbox__input,.container-searchbox__button{border:0 none}.container-searchbox__button{cursor:pointer;font-size:12px;margin-left:15px;border:0 none;padding:2px 8px;color:#638296}.container-disclaimer{text-align:center}.container-disclaimer__content{display:inline-block}.container-disclaimer__content-text,.container-disclaimer a{font-size:10px}.container-disclaimer__content-text{color:#555}.container-disclaimer a{color:#555}.container-imprint{text-align:center}.container-imprint__content{display:inline-block}.container-imprint__content-text,.container-imprint__content-link{font-size:10px;color:#555}.container-privacyPolicy{text-align:center}.container-privacyPolicy__content{display:inline-block}.container-privacyPolicy__content-link{font-size:10px;color:#555}.container-cookie-message{position:fixed;bottom:0;width:100%;background:#5F5F5F;font-size:12px;padding-top:15px;padding-bottom:15px}.container-cookie-message__content-text{color:#fff}.container-cookie-message__content-text{margin-left:15%;margin-right:15%}.container-cookie-message__content-interactive{text-align:left;margin:0 15px;font-size:10px}.container-cookie-message__content-interactive-header,.container-cookie-message__content-interactive-text{color:#fff}.container-cookie-message__content-interactive-header{font-size:small}.container-cookie-message__content-interactive-text{margin-top:10px;margin-right:0px;margin-bottom:5px;margin-left:0px;font-size:larger}.container-cookie-message a{color:#fff}.cookie-modal-window{position:fixed;background-color:rgba(200,200,200,0.75);top:0;right:0;bottom:0;left:0;-webkit-transition:all 0.3s;-moz-transition:all 0.3s;transition:all 0.3s;text-align:center}.cookie-modal-window__content-header{font-size:150%;margin:0 0 15px}.cookie-modal-window__content{text-align:initial;margin:10% auto;padding:40px;background:#fff;display:inline-block;max-width:550px}.cookie-modal-window__content-text{line-height:1.5em}.cookie-modal-window__close{width:100%;margin:0}.cookie-modal-window__content-body table{width:100%;border-collapse:collapse}.cookie-modal-window__content-body table td{padding-left:15px}.cookie-modal-window__content-necessary-cookies-row{background-color:#dee1e3}.disabled{display:none;z-index:-999}.btn{display:inline-block;border-style:solid;border-radius:5px;padding:15px 25px;text-align:center;text-decoration:none;cursor:pointer;margin:5px;transition:0.3s}.btn--success{background-color:#218838;border-color:#218838;color:#fff;font-size:x-large}.btn--success:hover{background-color:#1a6b2c;border-color:#1a6b2c;color:#fff;font-size:x-large}.btn--success-sm{background-color:#218838;border-color:#218838;color:#fff;font-size:initial}.btn--success-sm:hover{background-color:#1a6b2c;border-color:#1a6b2c;color:#fff;font-size:initial}.btn--secondary{background-color:#8c959c;border-color:#8c959c;color:#fff;font-size:medium}.btn--secondary:hover{background-color:#727c83;border-color:#727c83;color:#fff;font-size:medium}.btn--secondary-sm{background-color:#8c959c;border-color:#8c959c;color:#fff;font-size:initial}.btn--secondary-sm:hover{background-color:#727c83;border-color:#727c83;color:#fff;font-size:initial}.switch input{opacity:0;width:0;height:0}.switch{position:relative;display:inline-block;width:60px;height:34px}.switch__slider{position:absolute;cursor:pointer;top:0;left:0;right:0;bottom:0;background-color:#5a6268;-webkit-transition:.4s;transition:.4s}.switch__slider:before{position:absolute;content:"";height:26px;width:26px;left:4px;bottom:4px;background-color:white;-webkit-transition:.4s;transition:.4s}.switch__slider--round{border-radius:34px}.switch__slider--round:before{border-radius:50%}input:checked+.switch__slider{background-color:#007bff}input:focus+.switch__slider{box-shadow:0 0 1px #007bff}input:checked+.switch__slider:before{-webkit-transform:translateX(26px);-ms-transform:translateX(26px);transform:translateX(26px)}body{background-color:#262626;font-family:Arial, Helvetica, Verdana, "Lucida Grande", sans-serif}body.cookie-message-enabled{padding-bottom:300px}.container-footer{padding-top:0;padding-left:5%;padding-right:5%;padding-bottom:10px}
 
-This is the custom Mozilla Login Experience, designed and built by Mozilla's IAM Project.
 
-Version: 2.0.0 (revision fb0894011d7997349b49fe64702a98005f4bf9c5, built 2020-07-01T21:22)
-Changelog: https://github.com/mozilla-iam/auth0-custom-lock/blob/master/CHANGELOG.md
+    </style><script type="text/javascript">
+        var dto = {"uiOptimize":false,"singleDomainName":"etherpad-mozilla.org","domainName":"etherpad-mozilla.org","domainPrice":-2,"domainCurrency":"","adultFlag":false,"pu":"//public.etherpad-mozilla.org","dnsh":true,"dpsh":false,"toSell":true,"cdnHost":"http://img.sedoparking.com","adblockkey":" data-adblockkey=MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANnylWw2vLY4hUn9w06zQKbhKBfvjFUCsdFlb6TdQhxb9RXWXuI4t31c+o8fYOv/s8q1LGPga3DE1L/tHU4LENMCAwEAAQ==_bp9Glh0rLptFmcPEuysV9o0t/bSN7OJ6GRmT8Etved7tFpECKWn+FbdcdIz104zDERy+yos+RrDFxqBWRnYDJQ==","tid":"3032","lt":"oneclick","buybox":true,"buyboxTopic":true,"disclaimer":true,"imprint":false,"searchbox":true,"noFollow":false,"slsh":false,"ppsh":true,"dnhlsh":true,"toSellUrl":"https://sedo.com/search/details/?partnerid=14460&language=us&domain=etherpad-mozilla.org&origin=parking&utm_medium=Parking&utm_campaign=template&utm_source=3032","toSellText":"","searchboxPath":"//public.etherpad-mozilla.org/parking.php","searchParams":{"ses":"Y3JlPTE2MDcwNTI4NjMmdGNpZD1wdWJsaWMuZXRoZXJwYWQtbW96aWxsYS5vcmc1ZmM5YWUzZjZlNTUwMS44NzYzMDEyMyZ0YXNrPXNlYXJjaCZkb21haW49ZXRoZXJwYWQtbW96aWxsYS5vcmcmbGFuZ3VhZ2U9ZW4mYV9pZD0xJnNlc3Npb249akpvTzFsNGNxWmw2ektJbXAxTjQmdHJhY2txdWVyeT0x"},"gts":false,"imprintUrl":false,"contentType":5,"t":"content","pus":"ses=Y3JlPTE2MDcwNTI4NjMmdGNpZD1wdWJsaWMuZXRoZXJwYWQtbW96aWxsYS5vcmc1ZmM5YWUzZjZlNTUwMS44NzYzMDEyMyZ0YXNrPXNlYXJjaCZkb21haW49ZXRoZXJwYWQtbW96aWxsYS5vcmcmbGFuZ3VhZ2U9ZW4mYV9pZD0zJnNlc3Npb249akpvTzFsNGNxWmw2ektJbXAxTjQ=","postActionParameter":{"feedback":"/search/fb.php?ses=","token":{"checkNeedsReviewStatus":"b2fdcf10d2e4e8cd016070528632cfd3c475848a6c","checkAdultStatus":"b2fdcf10d2e4e8cd016070528632cfd3c475848a6c","checkBlockedStatus":"b2fdcf10d2e4e8cd016070528632cfd3c475848a6c","logErrorCode":"b2fdcf10d2e4e8cd016070528632cfd3c475848a6c"}},"gFeedSES":{"default":"OAljZGRiNDA1NWRkMTQ0MDgxODI5YmY0YmVlMWQ0NjMwZQkxMjAxCTEzCTAJCTM3MTAyMDgwNQlldGhlcnBhZC1tb3ppbGxhCTMwMzIJMQk1CTU5CTE2MDcwNTI4NjMJMAlOCTAJMQkxODA3CTEyMDUJMzU4NDYxNzc5CTMuODUuMTU5Ljg3CTE%3D","alternate":"OAljZGRiNDA1NWRkMTQ0MDgxODI5YmY0YmVlMWQ0NjMwZQkxMjAxCTEzCTAJCTM3MTAyMDgwNQlldGhlcnBhZC1tb3ppbGxhCTMwMzIJMQk1CTU5CTE2MDcwNTI4NjMJMAlOCTAJMQkxODA3CTEyMDUJMzU4NDYxNzc5CTMuODUuMTU5Ljg3CTE%3D"},"visitorViewIdJsAds":"OGZlMGJjZjU3NTgwYjcyNDkxMzU2MTc4MDNlNWM1MDEJMQlwdWJsaWMuZXRoZXJwYWQtbW96aWxsYS5vcmc1ZmM5YWUzZjZlNTUwMS44NzYzMDEyMwlwdWJsaWMuZXRoZXJwYWQtbW96aWxsYS5vcmc1ZmM5YWUzZjZlNTg4MC4zNTczMDc1MwkxNjA3MDUyODYzCTA=","jsParameter":{"request":{"pubId":"dp-sedo80_3ph","domainRegistrant":"as-drid-2957021607712336","kw":"","adtest":"off","adsafe":"low","noAds":5,"uiOptimize":"true","hl":"en","channel":"exp-0070,exp-0051,auxa-control-1,564762"},"alternate_pubid":"dp-sedo80_3ph"},"ads":[],"adv":1,"advt":1,"rls":[],"numberRelatedLinks":6,"waUrl":"/search/portal.php?l=OAljZGRiNDA1NWRkMTQ0MDgxODI5YmY0YmVlMWQ0NjMwZQkxMjAxCTEzCTAJCTM3MTAyMDgwNQlldGhlcnBhZC1tb3ppbGxhCTMwMzIJMQk1CTU5CTE2MDcwNTI4NjMJMAlOCTAJMQkxODA3CTEyMDUJMzU4NDYxNzc5CTMuODUuMTU5Ljg3CTE%3D","ga":true,"tsc":true,"tscQs":"200=MzcxMDIwODA1&21=My44NS4xNTkuODc=&681=MTYwNzA1Mjg2M2JmZjg4YzM1MWQyODY4OGJjZjdkZjVlZjk0NmM1ZGVj&crc=e3e3d1bf427ad6fedf70d79f4bff621a2016856a&cv=1","lang":"en","maid":59,"sedoParkingUrl":"https://www.sedo.com/services/parking.php3","dbg":false,"signedLink":"l","visitorViewId":"v","registrar_params":[],"clickTrack":[],"cookieMessage":false,"cookieMessageInteractive":false,"executeTrackingPixels":false};
+    </script></head><body ><div class="container-header" id="container-header"><h1 class="container-header__content">etherpad-mozilla.org</h1></div><div id="container-content" class="container-content container-content--lp"><div class="container-content__container-relatedlinks" id="container-relatedlinks"><div id="rb-default"></div></div></div><div class="container-searchbox" id="container-searchbox"><div class="container-searchbox__content" id="sb-default"></div></div><div class="container-buybox" id="container-buybox"><div
+            class="
+            container-buybox__content
+            content-buybox-1tier"
+            id="bb-default"
+    ><h2 class="container-buybox__content-heading"><a
+            class="container-buybox__content-link"
+            target="_blank"
+            href="https://sedo.com/search/details/?partnerid=14460&amp;language=us&amp;domain=etherpad-mozilla.org&amp;origin=parking&amp;utm_medium=Parking&amp;utm_campaign=template&amp;utm_source=3032"
+                >
+        Buy this domain
+    </a></h2><p class="container-buybox__content-text"><a
+            class="container-buybox__content-link
+            container-buybox__content-link--no-decoration
+            "
+            href="https://sedo.com/search/details/?partnerid=14460&amp;language=us&amp;domain=etherpad-mozilla.org&amp;origin=parking&amp;utm_medium=Parking&amp;utm_campaign=template&amp;utm_source=3032"
+            target="_blank"
+                >
 
-These are the variables we are using:
-
-  Auth0-domain: auth.mozilla.auth0.com
-  Client ID: 
-  LDAP connection name: Mozilla-LDAP
-  Person API domain: https://person-api.sso.mozilla.com/v1/connection/
-  Google Tag Manager ID: GTM-T2N2BRW
-  Logout URL: https://auth.mozilla.auth0.com/v2/logout?returnTo=https://sso.mozilla.com/signout.html
-  SSO Dashboard URL: https://sso.mozilla.com
-  CSP: default-src 'none'; connect-src 'self' https://person-api.sso.mozilla.com; script-src 'self' https://cdn.sso.mozilla.com https://www.googletagmanager.com https://www.google-analytics.com; style-src 'self' https://cdn.sso.mozilla.com; font-src 'self' https://cdn.sso.mozilla.com; img-src 'self' https://cdn.sso.mozilla.com https://www.google-analytics.com
-  CDN: https://cdn.sso.mozilla.com/nlx/fb0894011d7997349b49fe64702a98005f4bf9c5
-  Features:
-   autologin: true
-   person_api_lookup: true
-   supportedLoginMethods: github,google-oauth2,firefoxaccounts,email
-  Display names:
-    github: GitHub
-    google-oauth2: Google
-    firefoxaccounts: Firefox Accounts
-    email: email
-
-The code is the result of a build process, please find the source code
-on GitHub: https://github.com/mozilla-iam/auth0-custom-lock
--->
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Mozilla Login</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; connect-src 'self' https://person-api.sso.mozilla.com; script-src 'self' https://cdn.sso.mozilla.com https://www.googletagmanager.com https://www.google-analytics.com; style-src 'self' https://cdn.sso.mozilla.com; font-src 'self' https://cdn.sso.mozilla.com; img-src 'self' https://cdn.sso.mozilla.com https://www.google-analytics.com">
-    <link rel="dns-prefetch" href="https://person-api.sso.mozilla.com/v1/connection/">
-    <link rel="stylesheet" href="https://cdn.sso.mozilla.com/nlx/fb0894011d7997349b49fe64702a98005f4bf9c5/css/fonts.css" type="text/css" />
-    <link rel="stylesheet" href="https://cdn.sso.mozilla.com/nlx/fb0894011d7997349b49fe64702a98005f4bf9c5/css/styles.css" type="text/css" />
-    <link rel="icon" href="https://cdn.sso.mozilla.com/nlx/fb0894011d7997349b49fe64702a98005f4bf9c5/images/favicon.png" type="image/png" sizes="192x192" />
-  </head>
-  <body data-decorator="load-ga display-rp-name prevent-clickjack track-password-manager-usage check-keyboard">
-    <div data-decorator="check-if-maintenance-mode" hidden>
-      <div class="banner">
-        <p>We are currently experiencing an issue &amp; working hard to resolve it. Please try to login again in a few minutes.  Request help via <a href="mailto:moc@mozilla.com">moc@mozilla.com</a>, IRC #moc or Slack #mozsm-all.</p>
-      </div>
-    </div>
-    <div class="card">
-      <a href="https://mozilla.org" class="logo" target="_blank"><img alt="Mozilla" src="https://cdn.sso.mozilla.com/nlx/fb0894011d7997349b49fe64702a98005f4bf9c5/images/mozilla.svg" /></a>
-      <noscript><p>This login form requires JavaScript to work, please enable it to log in.</p></noscript>
-      <form id="nlx-form" data-decorator="init-auth handle-submit" method="post" action="/" lock-state="initial">
-        <fieldset class="hidden-lastpass-password-offset" data-decorator="decide-screen">
-          <legend class="rp-name"><span class="visually-hidden">Log in to </span><span id="rp-name-placeholder" class="rp-name__text"></span></legend>
-          <div id="loading" class="loading" data-screen hidden>
-            <p class="visually-hidden">Loading…</p>
-            <img src="https://cdn.sso.mozilla.com/nlx/fb0894011d7997349b49fe64702a98005f4bf9c5/images/loading.svg" class="loading__spinner" alt="" />
-            <p role="alert" id="loading__status" class="loading__status"></p>
-          </div>
-          <div id="initial" data-screen hidden>
-            <div class="form__input">
-              <input type="email" name="username" id="field-email" autocomplete="email" autofocus data-decorator="watch-contents" />
-              <label for="field-email"><span><span aria-hidden="true">Log in with </span>email</span></label>
-            </div>
-            <input type="submit" class="button button--full-width" id="enter-initial" value="Enter" />
-            <hr>
-            <ul class="login-options list list--plain">
-              <li data-optional-login-method="firefoxaccounts">
-                <button class="button button--full-width button--social button--secondary" type="button" data-handler="authorise-firefoxaccounts">
-                  <img class="icon" src="https://cdn.sso.mozilla.com/nlx/fb0894011d7997349b49fe64702a98005f4bf9c5/images/firefox.svg" alt="">
-                  <span>Log in with Firefox</span>
-                </button>
-              </li>
-              <li data-optional-login-method="github">
-                <button class="button button--github button--full-width button--social button--secondary" type="button" data-handler="authorise-github">
-                  <img class="icon icon-default" src="https://cdn.sso.mozilla.com/nlx/fb0894011d7997349b49fe64702a98005f4bf9c5/images/github.svg" alt="">
-                  <img class="icon icon-hover" src="https://cdn.sso.mozilla.com/nlx/fb0894011d7997349b49fe64702a98005f4bf9c5/images/github-white.svg" alt="">
-                  <span>Log in with GitHub</span>
-                </button>
-              </li>
-              <li data-optional-login-method="google-oauth2">
-                <button class="button button--full-width button--social button--secondary" type="button" data-handler="authorise-google">
-                  <img class="icon" src="https://cdn.sso.mozilla.com/nlx/fb0894011d7997349b49fe64702a98005f4bf9c5/images/google.svg" alt="">
-                  <span>Log in with Google</span>
-                </button>
-            </ul>
-            <div data-decorator="hide-autologin-setting-conditionally">
-              <hr>
-              <div class="setting">
-                <a href="#what-is-autologin" class="link-to-tooltip" data-decorator="tooltip"><span class="visually-hidden">What is Auto-login?</span> <img class="icon" src="https://cdn.sso.mozilla.com/nlx/fb0894011d7997349b49fe64702a98005f4bf9c5/images/info.svg" alt=""></a>
-                <input type="checkbox" id="use-autologin" data-decorator="set-autologin-preference" checked>
-                <label for="use-autologin"><span class="setting__toggle"></span> <span class="setting__enabled-text">Auto-login is enabled</span><span class="setting__disabled-text">Auto-login is disabled</span></label>
-                <div id="what-is-autologin" class="tooltip">
-                  <p>Auto-login will allow you to bypass this screen and be automatically logged in via your chosen login method. This setting can be edited by visiting your menu on the SSO Dashboard.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div id="initial-login-signup" data-screen hidden>
-            <div class="form__input">
-              <input type="email" name="username" id="field-email-signup" autocomplete="email" data-decorator="watch-contents" />
-              <label for="field-email-signup"><span><span aria-hidden="true">Log In or Sign Up with </span>email</span></label>
-            </div>
-            <input type="submit" class="button button--full-width" id="enter-initial-signup" value="Enter" />
-            <hr>
-            <ul class="login-options list list--plain">
-              <li data-optional-login-method="firefoxaccounts">
-                <button class="button button--full-width button--social button--secondary" type="button" data-handler="authorise-firefoxaccounts">
-                  <img class="icon" src="https://cdn.sso.mozilla.com/nlx/fb0894011d7997349b49fe64702a98005f4bf9c5/images/firefox.svg" alt="">
-                  <span>Continue with Firefox</span>
-                </button>
-              </li>
-              <li data-optional-login-method="github">
-                <button class="button button--github button--full-width button--social button--secondary" type="button" data-handler="authorise-github">
-                  <img class="icon icon-default" src="https://cdn.sso.mozilla.com/nlx/fb0894011d7997349b49fe64702a98005f4bf9c5/images/github.svg" alt="">
-                  <img class="icon icon-hover" src="https://cdn.sso.mozilla.com/nlx/fb0894011d7997349b49fe64702a98005f4bf9c5/images/github-white.svg" alt="">
-                  <span>Continue with GitHub</span>
-                </button>
-              </li>
-              <li data-optional-login-method="google-oauth2">
-                <button class="button button--full-width button--social button--secondary" type="button" data-handler="authorise-google">
-                  <img class="icon" src="https://cdn.sso.mozilla.com/nlx/fb0894011d7997349b49fe64702a98005f4bf9c5/images/google.svg" alt="">
-                  <span>Continue with Google</span>
-                </button>
-            </ul>
-            <div data-decorator="hide-autologin-setting-conditionally">
-              <hr>
-              <div class="setting">
-                <a href="#what-is-autologin-2" class="link-to-tooltip" data-decorator="tooltip"><span class="visually-hidden">What is Auto-login?</span> <img class="icon" src="https://cdn.sso.mozilla.com/nlx/fb0894011d7997349b49fe64702a98005f4bf9c5/images/info.svg" alt=""></a>
-                <input type="checkbox" id="use-autologin-2" data-decorator="set-autologin-preference" checked>
-                <label for="use-autologin-2"><span class="setting__toggle"></span> <span class="setting__enabled-text">Auto-login is enabled</span><span class="setting__disabled-text">Auto-login is disabled</span></label>
-                <div id="what-is-autologin-2" class="tooltip">
-                  <p>Auto-login will allow you to bypass this screen and be automatically logged in via your chosen login method. This setting can be edited by visiting your menu on the SSO Dashboard.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div id="ldap" data-screen hidden>
-            <div class="form__input">
-              <input type="password" id="field-password" autocomplete="current-password" name="password" data-decorator="submit-with-enter watch-contents" data-continue-with="authorise-ldap-credentials"  />
-              <label for="field-password"><span>LDAP password</span></label>
-            </div>
-            <input type="submit" class="button button--full-width" id="authorise-ldap-credentials" value="Enter"/>
-            <hr>
-            <button type="button" class="button button--text-only card__back button--unpadded" data-handler="go-to-initial-page">Need to start over with a different account?</button>
-          </div>
-          <div id="non-ldap" data-screen hidden>
-            <ul class="login-options list list--plain" data-optional-login-method="email">
-              <li>
-                <button class="button button--full-width button--secondary" type="button" data-handler="send-passwordless-link">Send me an email to continue</button>
-              </li>
-            </ul>
-            <a href="https://wiki.mozilla.org/IAM/Frequently_asked_questions#Q:_Why_do_you_support_email_login_.28.22passwordless.22.29_if_it.27s_less_safe_than_other_methods.3F" class="button button--text-only button--unpadded" target="_blank">Why an email?</a>
-            <hr>
-            <ul class="login-options list list--plain">
-              <li data-optional-login-method="firefoxaccounts">
-                <button class="button button--full-width button--social button--secondary" type="button" data-handler="authorise-firefoxaccounts">
-                  <img class="icon" src="https://cdn.sso.mozilla.com/nlx/fb0894011d7997349b49fe64702a98005f4bf9c5/images/firefox.svg" alt="">
-                  <span>Continue with Firefox</span>
-                </button>
-              </li>
-              <li data-optional-login-method="github">
-                <button class="button button--github button--full-width button--social button--secondary" type="button" data-handler="authorise-github">
-                  <img class="icon icon-default" src="https://cdn.sso.mozilla.com/nlx/fb0894011d7997349b49fe64702a98005f4bf9c5/images/github.svg" alt="">
-                  <img class="icon icon-hover" src="https://cdn.sso.mozilla.com/nlx/fb0894011d7997349b49fe64702a98005f4bf9c5/images/github-white.svg" alt="">
-                  <span>Continue with GitHub</span>
-                </button>
-              </li>
-              <li data-optional-login-method="google-oauth2">
-                <button class="button button--full-width button--social button--secondary" type="button" data-handler="authorise-google">
-                  <img class="icon" src="https://cdn.sso.mozilla.com/nlx/fb0894011d7997349b49fe64702a98005f4bf9c5/images/google.svg" alt="">
-                  <span>Continue with Google</span>
-                </button>
-              </li>
-            </ul>
-            <hr>
-            <button type="button" class="button button--text-only card__back button--unpadded" data-handler="go-to-initial-page">Need to start over with a different account?</button>
-          </div>
-          <div id="passwordless-success" data-screen hidden>
-            <h2 class="card__heading card__heading--success"><img src="https://cdn.sso.mozilla.com/nlx/fb0894011d7997349b49fe64702a98005f4bf9c5/images/envelope.svg" class="card__heading-icon" alt="" /> <span>Success</span></h2>
-            <p>Email sent to <span id="passwordless-success-email-address"></span>, go to your inbox to continue. Your login link will expire in 15 minutes.</p>
-            <hr>
-            <button id="back" type="button" class="button button--text-only card__back  button--unpadded" data-handler="go-to-initial-page">Need to send that to a different email?</button>
-          </div>
-          <div id="error-password" data-screen hidden>
-            <h2 class="card__heading card__heading--error" id="error-message-ldap"><img src="https://cdn.sso.mozilla.com/nlx/fb0894011d7997349b49fe64702a98005f4bf9c5/images/circled-x.svg" class="card__heading-icon" alt="" /> <span>Error</span></h2>
-            <p>Please attempt again or contact the Help Desk for assistance.</p>
-            <div class="form__input">
-              <input type="password" id="field-password-try-2" autocomplete="current-password" name="password" data-decorator="submit-with-enter watch-contents" data-continue-with="authorise-ldap-credentials"  />
-              <label for="field-password-try-2"><span>LDAP password</span></label>
-            </div>
-            <input type="submit" class="button button--full-width" id="authorise-ldap-credentials-try-2" value="Enter" />
-            <hr>
-            <button type="button" class="button button--text-only card__back button--unpadded" data-handler="go-to-initial-page">Need to start over with a different account?</button>
-          </div>
-          <div id="error-passwordless" data-screen hidden>
-            <h2 class="card__heading card__heading--error" id="error-message-passwordless"><img src="https://cdn.sso.mozilla.com/nlx/fb0894011d7997349b49fe64702a98005f4bf9c5/images/circled-x.svg" class="card__heading-icon" alt="" /> <span>Error</span></h2>
-            <p>We cannot send an email to this address</p>
-            <button type="button" class="button button--text-only card__back  button--unpadded" data-handler="go-to-initial-page">Try again</button>
-            <hr>
-            <button type="button" class="button button--text-only card__back button--unpadded" data-handler="go-to-initial-page">Need to start over with a different account?</button>
-          </div>
-          <div id="ldap-not-available" data-screen hidden>
-            <h2 class="card__heading card__heading--error"><img src="https://cdn.sso.mozilla.com/nlx/fb0894011d7997349b49fe64702a98005f4bf9c5/images/circled-x.svg" class="card__heading-icon" alt="" /> <span>Error</span></h2>
-            <p>Unfortunately, this website does not offer login with Mozilla LDAP.</p>
-            <hr>
-            <button type="button" class="button button--text-only card__back button--unpadded" data-handler="go-to-initial-page">Need to start over with a different account?</button>
-          </div>
-          <div id="ldap-required" data-screen hidden>
-            <h2 class="card__heading card__heading--error"><img src="https://cdn.sso.mozilla.com/nlx/fb0894011d7997349b49fe64702a98005f4bf9c5/images/circled-x.svg" class="card__heading-icon" alt="" /> <span>Error</span></h2>
-            <p>Unfortunately, you can only login to this website using Mozilla LDAP.</p>
-            <hr>
-            <button type="button" class="button button--text-only card__back button--unpadded" data-handler="go-to-initial-page">Need to start over with a different account?</button>
-          </div>
-          <div id="autologin-settings" data-screen hidden>
-            <h2 class="card__heading card__heading--iconless">Auto-login settings</h2>
-            <p data-decorator="fill-in-session-info">You are currently logged in<span data-email hidden> as <strong></strong></span><span data-login-method hidden> using <strong></strong></span>.</p>
-            <div class="setting">
-              <input type="checkbox" id="use-autologin-2" data-decorator="set-autologin-preference" checked>
-              <label for="use-autologin-2"><span class="setting__toggle"></span> <span class="setting__enabled-text">Auto-login is enabled</span><span class="setting__disabled-text">Auto-login is disabled</span></label>
-              <input type="checkbox" id="use-autologin-3" data-decorator="set-autologin-preference" checked>
-              <label for="use-autologin-3"><span class="setting__toggle"></span> <span class="setting__enabled-text">Auto-login is enabled</span><span class="setting__disabled-text">Auto-login is disabled</span></label>
-            </div>
-            <hr>
-            <ul class="login-options list list--plain">
-              <li><a href="https://sso.mozilla.com" class="button button--full-width button--secondary">Back to Dashboard</a></li>
-              <li><a href="https://sso.mozilla.com/logout" class="button button--full-width button--secondary">Log out of Mozilla</a></li>
-            </ul>
-          </div>
-          <input type="password" id="hidden-lastpass-password" autocomplete="current-password" name="hidden-lastpass-password" aria-hidden />
-        </fieldset>
-      </form>
-      <ul id="legal-links" class="list list--plain">
-        <li><a href="https://www.mozilla.org/en-US/about/legal/" target="_blank">Legal</a></li>
-        <li><a href="https://www.mozilla.org/en-US/privacy/websites/" target="_blank">Privacy</a></li>
-        <li><a href="https://discourse.mozilla.org/c/iam" target="_blank">Need help?</a></li>
-      </ul>
-    </div>
-    <script type="text/json" id="nlx-config">
-    {
-      "hostedConfig": "eyJpY29uIjoiaHR0cHM6Ly9zc28ubW96aWxsYS5jb20vc3RhdGljL2ltZy9tb3ppbGxhLnN2ZyIsImFzc2V0c1VybCI6Imh0dHBzOi8vcnRhLm1vemlsbGEuYXV0aDAuY29tLyIsImF1dGgwRG9tYWluIjoiYXV0aC5tb3ppbGxhLmF1dGgwLmNvbSIsImF1dGgwVGVuYW50IjoiYXV0aCIsImNhbGxiYWNrT25Mb2NhdGlvbkhhc2giOmZhbHNlLCJjYWxsYmFja1VSTCI6Imh0dHBzOi8vcGFkLm1vemlsbGEub3JnL29wZW5pZC9jYWxsYmFjay9sb2dpbi8iLCJjZG4iOiJodHRwczovL3J0YS5tb3ppbGxhLmF1dGgwLmNvbS8iLCJjbGllbnRJRCI6IlRTWXI2dFpjeWJIeHRPbFl6bkIxZnNsQ3ZDSW5uS3czIiwiZGljdCI6eyJzaWduaW4iOnsidGl0bGUiOiJwYWQubW96aWxsYS5vcmcifX0sImV4dHJhUGFyYW1zIjp7InByb3RvY29sIjoib2F1dGgyIiwicmVzcG9uc2VfdHlwZSI6ImNvZGUiLCJub25jZSI6Ijc4MTU4YTQ0YzQzNzJjYTNkYmI5MDFhZWMyNGJmNTlhIiwic2NvcGUiOiJvcGVuaWQgZW1haWwgcHJvZmlsZSIsIl9jc3JmIjoiRHkwRzV5OVEtREtWZGxOZU1EQ2IxNmIzQXdBczdObGV4Zkh3IiwiX2ludHN0YXRlIjoiZGVwcmVjYXRlZCIsInN0YXRlIjoiZzZGbzJTQXdjVlJyYm1Od1pHWkNhRjlYUkhGblZFUm1NV0owWVdOUGMwUXRia2h3YzZOMGFXVFpJRFJLWjE5V1dtRlFhMmxETUdaVE0xTmlhVVJYZEVSc2VtUTFOMHgzVVVwcm8yTnBaTmtnVkZOWmNqWjBXbU41WWtoNGRFOXNXWHB1UWpGbWMyeERka05KYm01TGR6TSJ9LCJpbnRlcm5hbE9wdGlvbnMiOnsicHJvdG9jb2wiOiJvYXV0aDIiLCJyZXNwb25zZV90eXBlIjoiY29kZSIsIm5vbmNlIjoiNzgxNThhNDRjNDM3MmNhM2RiYjkwMWFlYzI0YmY1OWEiLCJzY29wZSI6Im9wZW5pZCBlbWFpbCBwcm9maWxlIiwiX2NzcmYiOiJEeTBHNXk5US1ES1ZkbE5lTURDYjE2YjNBd0FzN05sZXhmSHciLCJfaW50c3RhdGUiOiJkZXByZWNhdGVkIiwic3RhdGUiOiJnNkZvMlNBd2NWUnJibU53WkdaQ2FGOVhSSEZuVkVSbU1XSjBZV05QYzBRdGJraHdjNk4wYVdUWklEUktaMTlXV21GUWEybERNR1pUTTFOaWFVUlhkRVJzZW1RMU4weDNVVXBybzJOcFpOa2dWRk5aY2paMFdtTjVZa2g0ZEU5c1dYcHVRakZtYzJ4RGRrTkpibTVMZHpNIn0sIndpZGdldFVybCI6Imh0dHBzOi8vY2RuLmF1dGgwLmNvbS93Mi9hdXRoMC13aWRnZXQtNS4yLm1pbi5qcyIsImlzVGhpcmRQYXJ0eUNsaWVudCI6ZmFsc2UsImF1dGhvcml6YXRpb25TZXJ2ZXIiOnsidXJsIjoiaHR0cHM6Ly9hdXRoLm1vemlsbGEuYXV0aDAuY29tIiwiaXNzdWVyIjoiaHR0cHM6Ly9hdXRoLm1vemlsbGEuYXV0aDAuY29tLyJ9LCJjb2xvcnMiOnsicHJpbWFyeSI6IiMwMDAwMDAiLCJwYWdlX2JhY2tncm91bmQiOiIjMDAwMDAwIn19",
-      "environment": "PROD",
-      "domain": "auth.mozilla.auth0.com",
-      "client_ID": "",
-      "LDAP_connection_name": "Mozilla-LDAP",
-      "person_api_domain": "https://person-api.sso.mozilla.com/v1/connection/",
-      "GTM_ID": "GTM-T2N2BRW",
-      "features" : {
-        "autologin": "true",
-        "person_api_lookup": "true",
-        "maintenance_mode": "false"
-      },
-      "supportedLoginMethods": "github,google-oauth2,firefoxaccounts,email",
-      "logout_url": "https://auth.mozilla.auth0.com/v2/logout?returnTo=https://sso.mozilla.com/signout.html",
-      "displayNames": {
-        "github": "GitHub",
-        "google-oauth2": "Google",
-        "firefoxaccounts": "Firefox Accounts",
-        "email": "email"
-      }
-   }</script>
-    <script src="https://cdn.sso.mozilla.com/nlx/fb0894011d7997349b49fe64702a98005f4bf9c5/js/main.js"></script>
-  </body>
-</html>
+                                                        The domain <b>etherpad-mozilla.org</b> may be for sale by its owner!
+                                        </a></p></div></div><div class="container-footer" id="container-footer"><div class="container-disclaimer" id="container-disclaimer"><div class="container-disclaimer__content"><p class="container-disclaimer__content-text">
+        This webpage was generated by the domain owner using <a href="https://www.sedo.com/services/parking.php3">Sedo Domain Parking</a>. Disclaimer: Sedo maintains no relationship with third party advertisers. Reference to any specific service or trade mark is not controlled by Sedo nor does it constitute or imply its association, endorsement or recommendation.
+    </p></div></div><div class="container-imprint" id="container-imprint"></div><div class="container-privacyPolicy" id="container-privacyPolicy"><div class="container-privacyPolicy__content"><div id="privacy-policy-link"><a
+                class="container-privacyPolicy__content-link"
+                href="#"
+                onclick="window.open(
+                        '//sedoparking.com/privacy-policy/us/index.html',
+                        'privacy-policy','width=600,height=400');
+                        return false;">
+            Privacy Policy
+        </a></div></div></div></div><!-- CAF --><script type="text/javascript" src="//www.google.com/adsense/domains/caf.js"></script><script type="text/javascript">
+        var cafEl=[{meta:{layoutTypes:[1]},caf:{container:"ab-default",type:"ads",lines:3,linkTarget:"_blank",colorBackground:"transparent",colorAttribution:"#D6D6D6",fontSizeAttribution:14,attributionSpacingBelow:10,fontFamilyAttribution:"Arial",rolloverLinkBold:false,rolloverLinkColor:"#888888",rolloverLinkUnderline:false,verticalSpacing:10,adIconUrl:"//afs.googleusercontent.com/dp-sedo/bullet_justads.gif",adIconWidth:20,adIconHeight:24,adIconSpacingAbove:3,adIconSpacingBefore:10,fontSizeTitle:22,lineHeightTitle:30,colorTitleLink:"#2F4878",titleBold:true,noTitleUnderline:false,fontSizeDescription:14,lineHeightDescription:14,colorText:"#292929",fontSizeDomainLink:14,lineHeightDomainLink:20,colorDomainLink:"#6E8B9D",titleUppercase:true,fontFamily:"Tahoma, Verdana, Trebuchet MS",styleId:7054838717}},{meta:{layoutTypes:[5]},caf:{container:"rb-default",horizontalAlignment:"center",type:"relatedsearch",columns:1,colorBackground:"transparent",colorAttribution:"#D6D6D6",fontSizeAttribution:14,attributionBold:false,fontFamilyAttribution:"Arial",attributionSpacingBelow:10,rolloverLinkBold:false,rolloverLinkColor:"#888888",rolloverLinkUnderline:false,noTitleUnderline:false,adIconWidth:20,adIconHeight:24,adIconSpacingAbove:8,adIconSpacingBefore:10,fontSizeTitle:22,titleUpperCase:true,titleBold:true,lineHeightTitle:40,verticalSpacing:20,colorTitleLink:"#2a56c6",titleUppercase:true,fontFamily:"Tahoma, Verdana, Trebuchet MS"}},{meta:{layoutTypes:[1,2,3,5]},caf:{container:"sb-default",type:"searchbox",hideSearchInputBorder:true,hideSearchButtonBorder:true,colorSearchButtonText:"#638296",fontSizeSearchInput:12,fontSizeSearchButton:12,fontFamily:"Arial"}}];
+    </script><script type="text/javascript">
+            var onclick_param_l=dto.signedLink;var onclick_value_l=dto.gFeedSES.default;var onclick_value_al=dto.gFeedSES.alternate;var onclick_param_v=dto.visitorViewId;var onclick_value_v=dto.visitorViewIdJsAds;var fb="";if(dto.postActionParameter){fb=dto.pu+dto.postActionParameter.feedback;if(typeof dto.postActionParameter.token.checkAdultStatus!=="undefined"){fb_csa=dto.postActionParameter.token.checkAdultStatus}if(typeof dto.postActionParameter.token.checkBlockedStatus!=="undefined"){fb_csb=dto.postActionParameter.token.checkBlockedStatus}if(typeof dto.postActionParameter.token.checkNeedsReviewStatus!=="undefined"){fb_csn=dto.postActionParameter.token.checkNeedsReviewStatus}if(dto.postActionParameter.token.logErrorCode){var fb_ec=dto.postActionParameter.token.logErrorCode}if(dto.postActionParameter.token.artificialBid){var fb_ab=dto.postActionParameter.token.artificialBid}}var pu=dto.pu;var ds=dto.adultFlag;var pus=dto.pus;var tlt=dto.contentType;var dsb=dto.searchbox;var alternatePubId="";var pdto={caf:{colorBackground:"transparent"}};if(dto.jsParameter){alternatePubId=dto.jsParameter.alternate_pubid;requestParams=dto.jsParameter.request;$.each(requestParams,function(key){pdto.caf[key]=requestParams[key]})}(function(){var pageOptions=pdto.caf;var noAds=pdto.caf.noAds;delete pdto.caf.noAds;pageOptions.resultsPageBaseUrl=pu+"/caf/?"+pus;var clickControlParams={};clickControlParams[onclick_param_l]=onclick_value_l;clickControlParams[onclick_param_v]=onclick_value_v;function setRlsAmount(){$.each(cafEl,function(){if($.inArray(dto.contentType,this.meta.layoutTypes)!==-1&&this.caf.type==="relatedsearch"){this.caf.number=dto.numberRelatedLinks}})}function checkStatusAndTriggerFeedback(status,requestAccepted){var fb_tokens=[];var fb_add_params="";if("adult"in status){if((status.adult==="true"||status.adult===true)&&ds===false||(status.adult==="false"||status.adult===false)&&ds===true){fb_tokens.push(fb_csa);fb_add_params+="&as="+status.adult+"&gc="+status.client}}if("faillisted"in status&&status.faillisted){fb_tokens.push(fb_csb)}if("needsreview"in status&&status.needsreview||"error_code"in status&&-1!==$.inArray(parseInt(status.error_code),[234,235,236,242])){fb_tokens.push(fb_csn)}if("undefined"!==typeof fb_ab&&requestAccepted){fb_tokens.push(fb_ab)}if("error_code"in status&&"undefined"!==typeof fb_ec){fb_tokens.push(fb_ec);fb_add_params+="&ec="+parseInt(status.error_code)}if(typeof fb_tokens!=="undefined"&&fb_tokens.length>0){$.ajax({url:fb+fb_tokens.join(",")+fb_add_params})}}function checkAndCallCafWithAlternatePubId(status){if("undefined"!==typeof alternatePubId&&"error_code"in status&&-1!==$.inArray(parseInt(status.error_code),[221,222,223])){if(pageOptions.pubId==alternatePubId){return}pageOptions.pubId=alternatePubId;clickControlParams[onclick_param_l]=onclick_value_al;appendLatestDomainStatus();var cafObjects=collectCafObjects();if(cafObjects.length>1){createCaf.apply(this,cafObjects)}}}function appendLatestDomainStatus(){var latestAdultStatus=0;if(ds===false){latestAdultStatus=true}pageOptions.resultsPageBaseUrl=pu+"/caf/?"+pus+"&las="+latestAdultStatus}function addClicktrackUrl(cafObject){var parkingClickTrack="//cc.sedoparking.com/search/cc.php?"+$.param(clickControlParams);if(dto.clickTrack.length>0){dto.clickTrack.forEach(function(part,index){this[index]=encodeURI(this[index])},dto.clickTrack);cafObject.clicktrackUrl=[parkingClickTrack].concat(dto.clickTrack)}else{cafObject.clicktrackUrl=parkingClickTrack}}pageOptions.pageLoadedCallback=function(requestAccepted,status){checkStatusAndTriggerFeedback(status,requestAccepted);checkAndCallCafWithAlternatePubId(status)};function collectCafObjects(){var cafObjects=[pageOptions];$.each(cafEl,function(){if($.inArray(tlt,this.meta.layoutTypes)!==-1){if(this.caf.type==="ads"){addClicktrackUrl(this.caf);this.caf.number=noAds}pdto.caf.uiOptimize=dto.uiOptimize;rlsNumber=dto.rls.length;if(this.caf.type==="relatedsearch"&&rlsNumber>0){return}if(this.caf.type==="searchbox"&&dsb===false){return}cafObjects.push(this.caf)}});return cafObjects}function appendCafRls(){if(dto.rls.length<=0){return}var start=0;var cafRlObjects=[pdto.caf];$.each(cafEl,function(){if($.inArray(dto.contentType,this.meta.layoutTypes)!==-1&&this.caf.type==="relatedsearch"){var stop=start+this.caf.number;var terms=[];for(var i=start;i<stop;i++){if(i>dto.rls.length-1){break}terms[i]=dto.rls[i].term;start=i+1}this.caf.terms=terms.join(",");this.caf.optimizeTerms=false;cafRlObjects.push(this.caf)}});createCaf.apply(this,cafRlObjects)}if(typeof google!=="undefined"){window.createCaf=function(){function F(args){return google.ads.domains.Caf.apply(this,args)}F.prototype=google.ads.domains.Caf.prototype;return function(){return new F(arguments)}}();setRlsAmount();if(dto.advt===1&&dto.contentType!=2&&dto.contentType!=3){appendCafRls()}var cafObjects=collectCafObjects();if(cafObjects.length>1){createCaf.apply(this,cafObjects)}}})();if(dto.tsc){$.ajax({url:dto.pu+"/"+"s"+"earch/tsc.php?"+dto.tscQs})}var $parkModalButton=document.getElementById("cookie-modal-open");var $parkModalCloseButton=document.getElementById("cookie-modal-close");var $parkModal=document.getElementById("cookie-modal-window");var $parkCookieMessage=document.getElementById("cookie-message");var $parkThirdPartyCookieCheckbox=document.getElementById("third-party-cookie-checkbox");var $parkAcceptAllCookiesButton=document.getElementById("accept-all-cookies-btn");var executeTrackingPixel=function(trigger){if(trigger===true&&typeof pxTracking==="function"){pxTracking()}};var getCookieExpirationTime=function(){var d=new Date;d.setTime(d.getTime()+7*24*60*60*1e3);return d.toUTCString()};var saveParkingCookie=function(statisticsCookie){var cookieConsent={necessary:true,statistics:statisticsCookie,version:1,timestamp:(new Date).getTime()};document.cookie="CookieConsent="+JSON.stringify(cookieConsent)+";expires="+getCookieExpirationTime()};if($parkModalButton!=null){$parkModalButton.onclick=function(e){$parkModal.classList.remove("disabled")}}if($parkModalCloseButton!=null){$parkModalCloseButton.onclick=function(e){$parkModal.classList.add("disabled");$parkCookieMessage.classList.add("disabled");saveParkingCookie($parkThirdPartyCookieCheckbox.checked);executeTrackingPixel($parkThirdPartyCookieCheckbox.checked)}}if($parkAcceptAllCookiesButton!=null){$parkAcceptAllCookiesButton.onclick=function(){$parkCookieMessage.classList.add("disabled");saveParkingCookie(true);executeTrackingPixel(true)}}if(dto.executeTrackingPixels===true){executeTrackingPixel(true)}
+    </script></body></html>
